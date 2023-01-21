@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   vaultwarden:
-    image: vaultwarden/server:1.25.2-alpine #swap tag to raspberry to run on a raspberry pi
+    image: vaultwarden/server:latest #swap tag to raspberry to run on a raspberry pi
     volumes:
       - './Data/Vaultwarden:/data'
     restart: on-failure
